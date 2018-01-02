@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84100C441FFB6A6200F22CD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84100C431FFB6A6200F22CD8 /* AppDelegate.m */; };
+		84100C471FFB6A6200F22CD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84100C461FFB6A6200F22CD8 /* ViewController.m */; };
+		84100C4A1FFB6A6200F22CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84100C481FFB6A6200F22CD8 /* Main.storyboard */; };
+		84100C4C1FFB6A6200F22CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84100C4B1FFB6A6200F22CD8 /* Assets.xcassets */; };
+		84100C4F1FFB6A6200F22CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84100C4D1FFB6A6200F22CD8 /* LaunchScreen.storyboard */; };
+		84100C521FFB6A6200F22CD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84100C511FFB6A6200F22CD8 /* main.m */; };
+		84100C5C1FFB6A6300F22CD8 /* LFPasswordDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84100C5B1FFB6A6300F22CD8 /* LFPasswordDemoTests.m */; };
+		84100C671FFB6A6300F22CD8 /* LFPasswordDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84100C661FFB6A6300F22CD8 /* LFPasswordDemoUITests.m */; };
+		84100C771FFB72FE00F22CD8 /* LFPasswordField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84100C751FFB72FE00F22CD8 /* LFPasswordField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84100C581FFB6A6200F22CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84100C371FFB6A6200F22CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84100C3E1FFB6A6200F22CD8;
+			remoteInfo = LFPasswordDemo;
+		};
+		84100C631FFB6A6300F22CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84100C371FFB6A6200F22CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84100C3E1FFB6A6200F22CD8;
+			remoteInfo = LFPasswordDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84100C3F1FFB6A6200F22CD8 /* LFPasswordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFPasswordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84100C421FFB6A6200F22CD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84100C431FFB6A6200F22CD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84100C451FFB6A6200F22CD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84100C461FFB6A6200F22CD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84100C491FFB6A6200F22CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84100C4B1FFB6A6200F22CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84100C4E1FFB6A6200F22CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84100C501FFB6A6200F22CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84100C511FFB6A6200F22CD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84100C571FFB6A6200F22CD8 /* LFPasswordDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFPasswordDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84100C5B1FFB6A6300F22CD8 /* LFPasswordDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFPasswordDemoTests.m; sourceTree = "<group>"; };
+		84100C5D1FFB6A6300F22CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84100C621FFB6A6300F22CD8 /* LFPasswordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFPasswordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84100C661FFB6A6300F22CD8 /* LFPasswordDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFPasswordDemoUITests.m; sourceTree = "<group>"; };
+		84100C681FFB6A6300F22CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84100C751FFB72FE00F22CD8 /* LFPasswordField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFPasswordField.m; sourceTree = "<group>"; };
+		84100C761FFB72FE00F22CD8 /* LFPasswordField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFPasswordField.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84100C3C1FFB6A6200F22CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84100C541FFB6A6200F22CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84100C5F1FFB6A6300F22CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84100C361FFB6A6200F22CD8 = {
+			isa = PBXGroup;
+			children = (
+				84100C411FFB6A6200F22CD8 /* LFPasswordDemo */,
+				84100C5A1FFB6A6300F22CD8 /* LFPasswordDemoTests */,
+				84100C651FFB6A6300F22CD8 /* LFPasswordDemoUITests */,
+				84100C401FFB6A6200F22CD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84100C401FFB6A6200F22CD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84100C3F1FFB6A6200F22CD8 /* LFPasswordDemo.app */,
+				84100C571FFB6A6200F22CD8 /* LFPasswordDemoTests.xctest */,
+				84100C621FFB6A6300F22CD8 /* LFPasswordDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84100C411FFB6A6200F22CD8 /* LFPasswordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84100C741FFB6A8D00F22CD8 /* LFPasswordField */,
+				84100C421FFB6A6200F22CD8 /* AppDelegate.h */,
+				84100C431FFB6A6200F22CD8 /* AppDelegate.m */,
+				84100C451FFB6A6200F22CD8 /* ViewController.h */,
+				84100C461FFB6A6200F22CD8 /* ViewController.m */,
+				84100C481FFB6A6200F22CD8 /* Main.storyboard */,
+				84100C4B1FFB6A6200F22CD8 /* Assets.xcassets */,
+				84100C4D1FFB6A6200F22CD8 /* LaunchScreen.storyboard */,
+				84100C501FFB6A6200F22CD8 /* Info.plist */,
+				84100C511FFB6A6200F22CD8 /* main.m */,
+			);
+			path = LFPasswordDemo;
+			sourceTree = "<group>";
+		};
+		84100C5A1FFB6A6300F22CD8 /* LFPasswordDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				84100C5B1FFB6A6300F22CD8 /* LFPasswordDemoTests.m */,
+				84100C5D1FFB6A6300F22CD8 /* Info.plist */,
+			);
+			path = LFPasswordDemoTests;
+			sourceTree = "<group>";
+		};
+		84100C651FFB6A6300F22CD8 /* LFPasswordDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84100C661FFB6A6300F22CD8 /* LFPasswordDemoUITests.m */,
+				84100C681FFB6A6300F22CD8 /* Info.plist */,
+			);
+			path = LFPasswordDemoUITests;
+			sourceTree = "<group>";
+		};
+		84100C741FFB6A8D00F22CD8 /* LFPasswordField */ = {
+			isa = PBXGroup;
+			children = (
+				84100C761FFB72FE00F22CD8 /* LFPasswordField.h */,
+				84100C751FFB72FE00F22CD8 /* LFPasswordField.m */,
+			);
+			path = LFPasswordField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84100C3E1FFB6A6200F22CD8 /* LFPasswordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84100C6B1FFB6A6300F22CD8 /* Build configuration list for PBXNativeTarget "LFPasswordDemo" */;
+			buildPhases = (
+				84100C3B1FFB6A6200F22CD8 /* Sources */,
+				84100C3C1FFB6A6200F22CD8 /* Frameworks */,
+				84100C3D1FFB6A6200F22CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFPasswordDemo;
+			productName = LFPasswordDemo;
+			productReference = 84100C3F1FFB6A6200F22CD8 /* LFPasswordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84100C561FFB6A6200F22CD8 /* LFPasswordDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84100C6E1FFB6A6300F22CD8 /* Build configuration list for PBXNativeTarget "LFPasswordDemoTests" */;
+			buildPhases = (
+				84100C531FFB6A6200F22CD8 /* Sources */,
+				84100C541FFB6A6200F22CD8 /* Frameworks */,
+				84100C551FFB6A6200F22CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84100C591FFB6A6200F22CD8 /* PBXTargetDependency */,
+			);
+			name = LFPasswordDemoTests;
+			productName = LFPasswordDemoTests;
+			productReference = 84100C571FFB6A6200F22CD8 /* LFPasswordDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84100C611FFB6A6300F22CD8 /* LFPasswordDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84100C711FFB6A6300F22CD8 /* Build configuration list for PBXNativeTarget "LFPasswordDemoUITests" */;
+			buildPhases = (
+				84100C5E1FFB6A6300F22CD8 /* Sources */,
+				84100C5F1FFB6A6300F22CD8 /* Frameworks */,
+				84100C601FFB6A6300F22CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84100C641FFB6A6300F22CD8 /* PBXTargetDependency */,
+			);
+			name = LFPasswordDemoUITests;
+			productName = LFPasswordDemoUITests;
+			productReference = 84100C621FFB6A6300F22CD8 /* LFPasswordDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84100C371FFB6A6200F22CD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84100C3E1FFB6A6200F22CD8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					84100C561FFB6A6200F22CD8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84100C3E1FFB6A6200F22CD8;
+					};
+					84100C611FFB6A6300F22CD8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84100C3E1FFB6A6200F22CD8;
+					};
+				};
+			};
+			buildConfigurationList = 84100C3A1FFB6A6200F22CD8 /* Build configuration list for PBXProject "LFPasswordDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84100C361FFB6A6200F22CD8;
+			productRefGroup = 84100C401FFB6A6200F22CD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84100C3E1FFB6A6200F22CD8 /* LFPasswordDemo */,
+				84100C561FFB6A6200F22CD8 /* LFPasswordDemoTests */,
+				84100C611FFB6A6300F22CD8 /* LFPasswordDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84100C3D1FFB6A6200F22CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84100C4F1FFB6A6200F22CD8 /* LaunchScreen.storyboard in Resources */,
+				84100C4C1FFB6A6200F22CD8 /* Assets.xcassets in Resources */,
+				84100C4A1FFB6A6200F22CD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84100C551FFB6A6200F22CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84100C601FFB6A6300F22CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84100C3B1FFB6A6200F22CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84100C471FFB6A6200F22CD8 /* ViewController.m in Sources */,
+				84100C771FFB72FE00F22CD8 /* LFPasswordField.m in Sources */,
+				84100C521FFB6A6200F22CD8 /* main.m in Sources */,
+				84100C441FFB6A6200F22CD8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84100C531FFB6A6200F22CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84100C5C1FFB6A6300F22CD8 /* LFPasswordDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84100C5E1FFB6A6300F22CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84100C671FFB6A6300F22CD8 /* LFPasswordDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84100C591FFB6A6200F22CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84100C3E1FFB6A6200F22CD8 /* LFPasswordDemo */;
+			targetProxy = 84100C581FFB6A6200F22CD8 /* PBXContainerItemProxy */;
+		};
+		84100C641FFB6A6300F22CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84100C3E1FFB6A6200F22CD8 /* LFPasswordDemo */;
+			targetProxy = 84100C631FFB6A6300F22CD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84100C481FFB6A6200F22CD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84100C491FFB6A6200F22CD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84100C4D1FFB6A6200F22CD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84100C4E1FFB6A6200F22CD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84100C691FFB6A6300F22CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84100C6A1FFB6A6300F22CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84100C6C1FFB6A6300F22CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AJCW8CSNC;
+				INFOPLIST_FILE = LFPasswordDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miledai.LFPasswordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84100C6D1FFB6A6300F22CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AJCW8CSNC;
+				INFOPLIST_FILE = LFPasswordDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miledai.LFPasswordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84100C6F1FFB6A6300F22CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFPasswordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miledai.LFPasswordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFPasswordDemo.app/LFPasswordDemo";
+			};
+			name = Debug;
+		};
+		84100C701FFB6A6300F22CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFPasswordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miledai.LFPasswordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFPasswordDemo.app/LFPasswordDemo";
+			};
+			name = Release;
+		};
+		84100C721FFB6A6300F22CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFPasswordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miledai.LFPasswordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LFPasswordDemo;
+			};
+			name = Debug;
+		};
+		84100C731FFB6A6300F22CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFPasswordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miledai.LFPasswordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LFPasswordDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84100C3A1FFB6A6200F22CD8 /* Build configuration list for PBXProject "LFPasswordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84100C691FFB6A6300F22CD8 /* Debug */,
+				84100C6A1FFB6A6300F22CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84100C6B1FFB6A6300F22CD8 /* Build configuration list for PBXNativeTarget "LFPasswordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84100C6C1FFB6A6300F22CD8 /* Debug */,
+				84100C6D1FFB6A6300F22CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84100C6E1FFB6A6300F22CD8 /* Build configuration list for PBXNativeTarget "LFPasswordDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84100C6F1FFB6A6300F22CD8 /* Debug */,
+				84100C701FFB6A6300F22CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84100C711FFB6A6300F22CD8 /* Build configuration list for PBXNativeTarget "LFPasswordDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84100C721FFB6A6300F22CD8 /* Debug */,
+				84100C731FFB6A6300F22CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84100C371FFB6A6200F22CD8 /* Project object */;
+}

@@ -16,6 +16,7 @@
 		84100C5C1FFB6A6300F22CD8 /* LFPasswordDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84100C5B1FFB6A6300F22CD8 /* LFPasswordDemoTests.m */; };
 		84100C671FFB6A6300F22CD8 /* LFPasswordDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84100C661FFB6A6300F22CD8 /* LFPasswordDemoUITests.m */; };
 		84100C771FFB72FE00F22CD8 /* LFPasswordField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84100C751FFB72FE00F22CD8 /* LFPasswordField.m */; };
+		845559021FFC63C1005873A0 /* LFPasswordField.gif in Resources */ = {isa = PBXBuildFile; fileRef = 845559011FFC63C1005873A0 /* LFPasswordField.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		84100C681FFB6A6300F22CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84100C751FFB72FE00F22CD8 /* LFPasswordField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFPasswordField.m; sourceTree = "<group>"; };
 		84100C761FFB72FE00F22CD8 /* LFPasswordField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFPasswordField.h; sourceTree = "<group>"; };
+		845559011FFC63C1005873A0 /* LFPasswordField.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LFPasswordField.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		84100C411FFB6A6200F22CD8 /* LFPasswordDemo */ = {
 			isa = PBXGroup;
 			children = (
+				845559011FFC63C1005873A0 /* LFPasswordField.gif */,
 				84100C741FFB6A8D00F22CD8 /* LFPasswordField */,
 				84100C421FFB6A6200F22CD8 /* AppDelegate.h */,
 				84100C431FFB6A6200F22CD8 /* AppDelegate.m */,
@@ -251,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845559021FFC63C1005873A0 /* LFPasswordField.gif in Resources */,
 				84100C4F1FFB6A6200F22CD8 /* LaunchScreen.storyboard in Resources */,
 				84100C4C1FFB6A6200F22CD8 /* Assets.xcassets in Resources */,
 				84100C4A1FFB6A6200F22CD8 /* Main.storyboard in Resources */,
